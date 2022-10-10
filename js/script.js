@@ -5,7 +5,7 @@ const annoAttuale = 2022;
 const nomeUtente = prompt("Come ti chiami?");
 
 // 1 salvo in una const la data inserita dall'utente con un prompt
-const dataNascita = prompt("In che anno sei natə?");
+const dataNascita = prompt(`In che anno sei natə ${nomeUtente}?`);
 console.log(dataNascita);
 
 // 2 in una variabile faccio la sotrazione dell'anno attuale con la data di nascita
